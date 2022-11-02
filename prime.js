@@ -3,7 +3,7 @@
 let count=0;
 for(let i=0; i<=num; i++){
   if(num%i==0){
-    cont+
+    count++;
   }
 }
 if(count==2){
@@ -17,6 +17,6 @@ if(count==2){
 for(let j=2; j<=10; j++){
   let ans= checkprime(j);
   if(ans==true){
-    console.log(i, "is prime")
+    console.log(j, "is prime")
   }
 }
